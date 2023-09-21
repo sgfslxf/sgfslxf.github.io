@@ -1,0 +1,48 @@
+html{/*because html is father element of page, the effect of font-size font-family is global*/
+    font-size: 10px;/* px is pixel, a very small rgb light*/
+    font-family: "Open Sans", sans-serif;/* font*/
+    background-color: #00539f;
+}
+
+h1{
+    margin: 0;
+    padding: 20px, 0;
+    color: #00539f;
+
+    /*
+    The first pixel value sets the horizontal offset(水平偏移) of the shadow from the text: the distance it moves across(横向移动).
+    The second pixel value sets the shadow's vertical offset(竖直偏移) from the text: the distance it moves down(竖向移动).
+    The third pixel value sets the blur radius(模糊半径) of the shadow. A larger value produces a blurrier(更模糊的) shadow.
+    The fourth value sets the base color of the shadow.
+    */    
+    text-shadow: 3px 3px 1px black;
+
+    font-size: 60px;
+    text-align: center; /* align text to center*/
+}
+
+body{
+    width: 600px; /* force the width of page to 600px*/
+    margin: 0 auto;/* there can have 1, 2, 3, 4 value(s),if there is 2 values,first value control up and down margin, second value control left and right margin*/
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;/* if there are four numbers, the order is up right down left*/
+    border: 5px solid black;/*In this example, it is a 5 pixel wide solid black border on all sides of the body.*/
+}
+
+img{
+    /*
+    The <body> element is a block-level(块级) element, meaning that it takes up space on the page and can be given outer margins and other spacing-altering values. 
+    Images, on the other hand, are row-level(行级) elements and don't have some of the features of block-level elements. 
+    So in order for an image to have outer margins, we must give it block-level behavior using display: block.
+    */
+    display: block;
+    
+    margin: 0 auto;
+}
+
+p,
+li{
+    font-size: 20px;
+    line-height: 2; /* line height is 2*/
+    letter-spacing: 1px; /*space between letters*/
+}
