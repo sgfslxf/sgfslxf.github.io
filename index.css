@@ -36,8 +36,8 @@ img{
     So in order for an image to have outer margins, we must give it block-level behavior using display: block.
     */
     display: block;
-    width: 400px;
-    height: 300px;
+    width:60%;
+    height: 40%;
     margin: 0 auto;
 }
 
