@@ -22,7 +22,7 @@ h1{
 }
 
 body{
-    width: 600px; /* force the width of page to 600px*/
+    width: 80%; /* force the width of page to 600px*/
     margin: 0 auto;/* there can have 1, 2, 3, 4 value(s),if there is 2 values,first value control up and down margin, second value control left and right margin*/
     background-color: #ff9500;
     padding: 0 20px 20px 20px;/* if there are four numbers, the order is up right down left*/
